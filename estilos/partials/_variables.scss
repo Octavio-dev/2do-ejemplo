@@ -1,0 +1,38 @@
+$colorNegro: #020205;
+$colorBlanco: #f2f4f7;
+$colorNaranja: #e43a19;
+$colorGris2: #757575;
+$colorGris: #BDBDBD;
+$colorNav: #212121;
+$paddinTop: 2rem ;
+$paddinRight: 2rem ;
+$paddinBottom: 2rem ;
+$paddinLeft: 2rem ;
+
+
+
+/*keyframes*/
+
+@keyframes aparecer{
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes backgroundHeader {
+    0%{
+      background-color:$colorNegro;
+    }
+    75%{
+      background-color:$colorGris;
+    }
+    100%{
+      background-color:$colorBlanco
+    }
+  }

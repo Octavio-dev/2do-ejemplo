@@ -1,0 +1,96 @@
+@import "./variables";
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 0;
+    background-color: $colorNegro;
+
+    @include celular {
+        justify-content: center;
+    }
+
+
+    &__album{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 5rem;
+        color: $colorBlanco;
+
+        @include tablet {
+            padding: 2rem;
+        }
+
+        @include celular {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__album:hover{
+        font-size: large;
+        background-color: $colorBlanco;
+        color: $colorNegro;
+        transition: all .4s ease-out;
+    }
+}
+
+/*seccionGaleria*/
+.mainGaleria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorNegro;
+    padding-top: 2rem;
+    color: $colorNaranja;
+    font-size: xx-large;
+
+    &__contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: $colorNegro;
+        padding: 1em 10em;
+
+        @include laptop {
+            padding: 2rem;
+        }
+
+        @include tablet {
+            padding: 2rem;
+        }
+
+        @include celular{
+            margin: 0;
+            padding: 0;
+        }
+
+     }
+}
+
+img {
+    object-fit: contain;
+}
+
+@for $i from 1 through 11 {
+    .mainGaleria__contenedor--fotos#{$i}{
+        background-color: $colorBlanco;
+            padding: 2rem;
+            margin:  2rem;
+    }
+
+    @include celular{
+        .mainGaleria__contenedor--fotos#{$i}{
+
+            margin: 0;
+            padding: 0;
+            background-color: $colorNegro;
+        }
+        
+    }
+}

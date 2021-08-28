@@ -1,0 +1,77 @@
+@import "./variables";
+@import "./mediaQueries";
+
+
+.tienda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../estilos/img/ranaConCorona.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 1rem 5rem 1rem 5rem;
+    height: 110vh;
+    
+
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;  
+        background-color: $colorNegro;
+        background-attachment: fixed;
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+    &__Camperas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 500px;
+        flex-shrink: 1;
+        z-index: 100;
+        transition: all .2s ease-in;
+
+        label{
+            font-size: 2rem;
+            color: $colorNegro;
+            background-color: rgba($colorGris, $alpha: 0.8);
+        }
+        
+        img{
+            width: 350px;
+            height: 350px;
+        }
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.2)
+        }
+    }
+
+    &__Buzos{
+        @extend .tienda__Camperas;
+    }
+
+    &__Remeras{
+        @extend .tienda__Camperas;
+    }
+
+    &__Accesorios{
+        @extend .tienda__Camperas;
+    }
+
+    &__Multimedia{
+        @extend .tienda__Camperas;
+    }
+    
+}

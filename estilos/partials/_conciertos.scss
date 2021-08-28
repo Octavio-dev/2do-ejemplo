@@ -1,0 +1,195 @@
+@import "./variables";
+@import "./mediaQueries";
+
+.conciertos{
+    width: 100%;
+    background-color: $colorNegro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 15rem;
+
+    @include laptop {
+        padding: 2rem;
+    }
+
+    @include tablet {
+        padding: 1rem 0rem;
+    }
+
+    @include celular {
+        padding: 0;
+    }
+
+     
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    font-size:x-large;
+    border: 1rem $colorGris2;
+    border-style: dashed double ;
+
+    @include laptop {
+        border: none;
+    }
+
+    @include celular {
+        font-size: medium;
+    }
+
+
+    &__Negro{
+        display: flex;
+        flex-direction: row;    
+        justify-content: center;
+        color: $colorGris;
+        background-color: $colorNegro;
+        padding: 2rem;
+
+        @include celular {
+            padding: 2rem 0;
+        }
+
+        &--fechas{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 33%;
+        }
+        
+        &--info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 67%;
+        
+        }
+
+        &--info div{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;         
+        }
+    
+        &--info label{
+        position: absolute;
+        right: 0;
+        color: $colorNegro;
+        font-weight: bolder ;
+        background-color: rgba($colorNaranja,0.9);
+        border-radius: 1rem;
+    
+            @include tablet{
+                font-size: large;
+                bottom: 0;
+            }
+    
+             @include celular{
+                font-size: small;
+                bottom: 0;
+            }
+        }    
+      
+        &--info div a{
+            text-decoration: none;
+            color: $colorNegro;
+            background-color: $colorGris;
+            border-radius: 20rem;
+            padding: 1rem 3em; 
+            
+            @include celular {
+                padding: 1rem;
+            }
+        }
+    
+        &--info div a:hover{
+            background-color: $colorNegro ;
+            color: $colorNaranja;
+            transition: all .4s;
+        }
+    }
+
+    &__Blanco{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: $colorNegro;
+        background-color: $colorGris;
+        padding: 2rem;
+
+        @include celular {
+            padding: 2rem 0;
+        }
+
+        &--fechas{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 33%;
+        }
+        
+        &--info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 67%;
+        }
+
+        &--info div{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;     
+        }
+        
+        &--info label{
+            position: absolute;
+            right: 0;
+            color: $colorNegro;
+            font-weight: bolder ;
+            background-color: rgba($colorNaranja,0.9);
+            border-radius: 1rem;
+        
+            @include tablet{
+                font-size: large;
+                bottom: 0;
+            }
+        
+            @include celular{
+                font-size: small;
+                bottom: 0;
+            }
+        }
+        
+        &--info div a{
+            text-decoration: none;
+            color: $colorGris;
+            background-color: $colorNegro;
+            border-radius: 20rem;
+            padding: 1rem 3em;   
+        
+            @include celular {
+                padding: 1rem;
+            }
+        }
+        
+        &--info div a:hover{
+            background-color: $colorGris ;
+            color: $colorNaranja;
+            transition: all .4s;
+        }
+    }
+}
+
+
+
