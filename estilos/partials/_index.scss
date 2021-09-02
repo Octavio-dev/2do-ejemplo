@@ -15,6 +15,8 @@
     font-size: x-large;
     z-index: 200;
 
+   
+
     @include tablet {
         height: auto;
     }
@@ -25,6 +27,33 @@
         
     }
 
+    &__titulo {
+        align-items:flex-start;
+        font-size: 5rem;
+    }
+
+    &__iframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 70vh;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        @include tablet {
+            height: 61vh;
+        }
+
+        @include celular {
+            height: 45vh;
+        }
+
+    }
+
     &::before{
         content: "";
         width: 100%;
@@ -33,7 +62,7 @@
         top: 0;
         left: 0;
         background-color: $colorNegro;
-        opacity: 0.96;
+        opacity: 0.95;
         z-index: -1;
     
         @include tablet {
@@ -43,33 +72,12 @@
         @include celular {
             display: none;
         }
-
-
-
-    iframe{
-        margin: 4rem 0rem 4rem 0rem;
-        z-index: 200;
-
-        @include tablet {
-            width: 700px;
-            height: 400px;
-        }
-
-        @include celular{
-            width: 300px;
-            height: 200px;
-        }
     }
 
-    &__titulo {
-        z-index: 200;
-        font-size: 5rem;
     }
-}
 
+    
 
-
-}
 
 .sobreLaBanda{
     background-color: $colorBlanco;
