@@ -15,6 +15,16 @@
     font-size: x-large;
     z-index: 200;
 
+    @include tablet {
+        height: auto;
+    }
+
+    @include celular {
+        background: $colorNegro;
+        background-image: none;
+        
+    }
+
     &::before{
         content: "";
         width: 100%;
@@ -34,14 +44,7 @@
             display: none;
         }
 
-    @include tablet {
-        height: auto;
-    }
 
-    @include celular {
-        height: auto;
-        background: $colorNegro;
-    }
 
     iframe{
         margin: 4rem 0rem 4rem 0rem;

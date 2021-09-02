@@ -42,6 +42,10 @@ header{
             color: $colorNaranja;
             font-size: 7rem;
 
+            @include tablet {
+                font-size: 4rem;
+            }
+
             @include celular {
                 font-size:2rem;
             }
