@@ -36,7 +36,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 70%;
         height: 70vh;
 
         iframe {
@@ -46,10 +46,13 @@
 
         @include tablet {
             height: 61vh;
+            width: 90%;
+            padding-bottom: 2rem;
         }
 
         @include celular {
             height: 45vh;
+            width: 90%;
         }
 
     }

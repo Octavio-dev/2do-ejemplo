@@ -116,7 +116,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 80%;
+  width: 70%;
   height: 70vh;
 }
 
@@ -128,12 +128,15 @@
 @media screen and (max-width: 768px) {
   .video__iframe {
     height: 61vh;
+    width: 90%;
+    padding-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .video__iframe {
     height: 45vh;
+    width: 90%;
   }
 }
 
