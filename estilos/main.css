@@ -167,6 +167,12 @@
   height: 40vh;
 }
 
+@media screen and (max-width: 768px) {
+  .sobreLaBanda {
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .sobreLaBanda {
     height: auto;
