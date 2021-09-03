@@ -89,11 +89,13 @@
     
             @include tablet{
                 font-size: large;
+                right: 30%;
                 bottom: 0;
             }
     
              @include celular{
                 font-size: small;
+                right: 25%;
                 bottom: 0;
             }
         }    
@@ -130,17 +132,11 @@
         }
 
         &--fechas{
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            width: 33%;
+            @extend .contenedor__Negro--fechas;
         }
         
         &--info{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            width: 67%;
+            @extend .contenedor__Negro--info;
         }
 
         &--info div{
@@ -162,11 +158,13 @@
         
             @include tablet{
                 font-size: large;
+                right: 30%;
                 bottom: 0;
             }
-        
-            @include celular{
+    
+             @include celular{
                 font-size: small;
+                right: 25%;
                 bottom: 0;
             }
         }
