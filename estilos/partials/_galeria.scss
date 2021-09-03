@@ -3,7 +3,7 @@
 .galeria{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 0 1rem 0;
@@ -18,24 +18,27 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 2rem 5rem;
-        color: $colorBlanco;
+        padding: 2rem 2rem;
+        margin: 2rem 7rem;
+        color: $colorNegro;
+        filter:grayscale(2);
 
         @include tablet {
             padding: 2rem;
+            filter: none;
         }
 
         @include celular {
             margin: 0;
             padding: 0;
+            filter: none;
         }
     }
 
     &__album:hover{
-        font-size: large;
-        background-color: $colorBlanco;
-        color: $colorNegro;
-        transition: all .4s ease-out;
+        color: $colorBlanco;
+        filter: none;
+        transition: all .8s ease-out;
     }
 }
 
