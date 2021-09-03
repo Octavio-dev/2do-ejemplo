@@ -1162,6 +1162,12 @@ img {
   height: 110vh;
 }
 
+@media screen and (max-width: 1024px) {
+  .tienda {
+    height: auto;
+  }
+}
+
 .tienda::before {
   content: "";
   width: 100%;
@@ -1198,6 +1204,14 @@ img {
   transition: all .2s ease-in;
 }
 
+@media screen and (max-width: 1024px) {
+  .tienda__Camperas, .tienda__Buzos, .tienda__Remeras, .tienda__Accesorios, .tienda__Multimedia {
+    height: 375px;
+    width: 375px;
+    margin: 2rem 2.5rem 5rem 2.5rem;
+  }
+}
+
 .tienda__Camperas label, .tienda__Buzos label, .tienda__Remeras label, .tienda__Accesorios label, .tienda__Multimedia label {
   font-size: 2rem;
   color: #020205;
@@ -1207,6 +1221,13 @@ img {
 .tienda__Camperas img, .tienda__Buzos img, .tienda__Remeras img, .tienda__Accesorios img, .tienda__Multimedia img {
   width: 350px;
   height: 350px;
+}
+
+@media screen and (max-width: 425px) {
+  .tienda__Camperas img, .tienda__Buzos img, .tienda__Remeras img, .tienda__Accesorios img, .tienda__Multimedia img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .tienda__Camperas:hover, .tienda__Buzos:hover, .tienda__Remeras:hover, .tienda__Accesorios:hover, .tienda__Multimedia:hover {
@@ -1225,6 +1246,7 @@ img {
   text-decoration: none;
 }
 
+/*header*/
 header {
   height: 20vh;
   width: 100%;
@@ -1284,6 +1306,7 @@ header h1 a {
   }
 }
 
+/*nav*/
 nav {
   background: -webkit-gradient(linear, left top, right top, color-stop(35%, #020205), color-stop(#212121), color-stop(65%, #020205));
   background: linear-gradient(to right, #020205 35%, #212121, #020205 65%);
