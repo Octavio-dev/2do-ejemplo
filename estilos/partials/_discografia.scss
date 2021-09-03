@@ -111,6 +111,42 @@
             background-color: rgba(255, 115, 0, 0.1);
             border-radius: 1rem;
         }
+
+        #btnLaIra{
+            display: none;
+        
+            &:checked ~ .contenedorDisco1__canciones--p{
+                display: block;
+                color: $colorBlanco;    
+            }
+        }
+        #btnEsLaIdea{
+            @extend #btnLaIra;
+        }
+        
+        #btnTanLogico{
+            @extend #btnLaIra;
+        }
+        
+        #btnJugando{
+            @extend #btnLaIra;
+        }
+
+        #btnDecimo{
+            @extend #btnLaIra;
+        }
+
+        #btnSeCae {
+            @extend #btnLaIra;
+        }
+
+        #btnDejenme{
+            @extend #btnLaIra;
+        }
+
+        #btnSicumbae{
+            @extend #btnLaIra;
+        }
     }
 
     &__descripcion{
@@ -121,51 +157,6 @@
             color: $colorBlanco;
             font-size: large;
         }
-    }
-}
-
-#btnLaIra{
-    display: none;
-
-    &:checked ~ .contenedorDisco1__canciones--p{
-        display: block;
-        color: $colorBlanco;    
-    }
-}
-
-
-
-
-#btnEsLaIdea{
-    display: none;
-
-    &:checked ~ .contenedorDisco1__canciones--p{
-        display: block;
-        color: $colorBlanco;
-    }
-}
-
-
-
-
-#btnTanLogico{
-    display: none;
-
-    &:checked ~ .contenedorDisco1__canciones--p{
-        display: block;
-        color: $colorBlanco;
-    }
-}
-
-
-
-
-#btnJugando{
-    display: none;
-
-    &:checked ~ .contenedorDisco1__canciones--p{
-        display: block;
-        color: $colorBlanco;
     }
 }
 

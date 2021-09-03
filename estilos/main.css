@@ -1116,6 +1116,15 @@ img {
   border-radius: 1rem;
 }
 
+.contenedorDisco1__canciones #btnLaIra, .contenedorDisco1__canciones #btnEsLaIdea, .contenedorDisco1__canciones #btnTanLogico, .contenedorDisco1__canciones #btnJugando, .contenedorDisco1__canciones #btnDecimo, .contenedorDisco1__canciones #btnSeCae, .contenedorDisco1__canciones #btnDejenme, .contenedorDisco1__canciones #btnSicumbae {
+  display: none;
+}
+
+.contenedorDisco1__canciones #btnLaIra:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnEsLaIdea:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnTanLogico:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnJugando:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnDecimo:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnSeCae:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnDejenme:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnSicumbae:checked ~ .contenedorDisco1__canciones--p {
+  display: block;
+  color: #f2f4f7;
+}
+
 .contenedorDisco1__descripcion {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -1126,42 +1135,6 @@ img {
   margin: 0;
   color: #f2f4f7;
   font-size: large;
-}
-
-#btnLaIra {
-  display: none;
-}
-
-#btnLaIra:checked ~ .contenedorDisco1__canciones--p {
-  display: block;
-  color: #f2f4f7;
-}
-
-#btnEsLaIdea {
-  display: none;
-}
-
-#btnEsLaIdea:checked ~ .contenedorDisco1__canciones--p {
-  display: block;
-  color: #f2f4f7;
-}
-
-#btnTanLogico {
-  display: none;
-}
-
-#btnTanLogico:checked ~ .contenedorDisco1__canciones--p {
-  display: block;
-  color: #f2f4f7;
-}
-
-#btnJugando {
-  display: none;
-}
-
-#btnJugando:checked ~ .contenedorDisco1__canciones--p {
-  display: block;
-  color: #f2f4f7;
 }
 
 /*keyframes*/
