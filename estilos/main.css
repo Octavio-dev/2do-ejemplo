@@ -1116,11 +1116,11 @@ img {
   border-radius: 1rem;
 }
 
-.contenedorDisco1__canciones #btnLaIra, .contenedorDisco1__canciones #btnEsLaIdea, .contenedorDisco1__canciones #btnTanLogico, .contenedorDisco1__canciones #btnJugando, .contenedorDisco1__canciones #btnDecimo, .contenedorDisco1__canciones #btnSeCae, .contenedorDisco1__canciones #btnDejenme, .contenedorDisco1__canciones #btnSicumbae {
+.contenedorDisco1__canciones #btnLaIra, .contenedorDisco1__canciones #btnEsLaIdea, .contenedorDisco1__canciones #btnTanLogico, .contenedorDisco1__canciones #btnJugando, .contenedorDisco1__canciones #btnDecimo, .contenedorDisco1__canciones #btnSeCae, .contenedorDisco1__canciones #btnDejenme, .contenedorDisco1__canciones #btnSicumbaie {
   display: none;
 }
 
-.contenedorDisco1__canciones #btnLaIra:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnEsLaIdea:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnTanLogico:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnJugando:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnDecimo:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnSeCae:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnDejenme:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnSicumbae:checked ~ .contenedorDisco1__canciones--p {
+.contenedorDisco1__canciones #btnLaIra:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnEsLaIdea:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnTanLogico:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnJugando:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnDecimo:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnSeCae:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnDejenme:checked ~ .contenedorDisco1__canciones--p, .contenedorDisco1__canciones #btnSicumbaie:checked ~ .contenedorDisco1__canciones--p {
   display: block;
   color: #f2f4f7;
 }
