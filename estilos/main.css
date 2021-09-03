@@ -92,7 +92,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .video {
     background: #020205;
     background-image: none;
@@ -133,7 +133,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .video__iframe {
     height: 45vh;
     width: 90%;
@@ -158,7 +158,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .video::before {
     display: none;
   }
@@ -190,7 +190,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .sobreLaBanda {
     height: auto;
   }
@@ -210,7 +210,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .sobreLaBanda p {
     margin: 0;
     padding: 0;
@@ -252,7 +252,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .integrantes {
     height: auto;
   }
@@ -288,7 +288,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .integrantes__contenedor {
     padding: 1rem;
     border-bottom: none;
@@ -317,7 +317,7 @@
   transition: all .3s;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .integrantes__contenedor--img {
     -webkit-filter: opacity(1);
             filter: opacity(1);
@@ -379,7 +379,7 @@
   background-color: #020205;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .galeria {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -419,7 +419,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .galeria__album {
     margin: 0;
     padding: 0;
@@ -481,7 +481,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor {
     margin: 0;
     padding: 0;
@@ -499,7 +499,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos1 {
     margin: 0;
     padding: 0;
@@ -513,7 +513,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos2 {
     margin: 0;
     padding: 0;
@@ -527,7 +527,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos3 {
     margin: 0;
     padding: 0;
@@ -541,7 +541,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos4 {
     margin: 0;
     padding: 0;
@@ -555,7 +555,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos5 {
     margin: 0;
     padding: 0;
@@ -569,7 +569,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos6 {
     margin: 0;
     padding: 0;
@@ -583,7 +583,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos7 {
     margin: 0;
     padding: 0;
@@ -597,7 +597,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos8 {
     margin: 0;
     padding: 0;
@@ -611,7 +611,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos9 {
     margin: 0;
     padding: 0;
@@ -625,7 +625,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos10 {
     margin: 0;
     padding: 0;
@@ -639,7 +639,7 @@ img {
   margin: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .mainGaleria__contenedor--fotos11 {
     margin: 0;
     padding: 0;
@@ -700,7 +700,7 @@ img {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .conciertos {
     padding: 0;
   }
@@ -727,7 +727,7 @@ img {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor {
     font-size: medium;
   }
@@ -749,7 +749,7 @@ img {
   padding: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor__Negro {
     padding: 2rem 0;
   }
@@ -817,7 +817,7 @@ img {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor__Negro--info label, .contenedor__Blanco--info label {
     font-size: small;
     right: 25%;
@@ -833,7 +833,7 @@ img {
   padding: 1rem 3em;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor__Negro--info div a, .contenedor__Blanco--info div a {
     padding: 1rem;
   }
@@ -862,7 +862,7 @@ img {
   padding: 2rem;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor__Blanco {
     padding: 2rem 0;
   }
@@ -903,7 +903,7 @@ img {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor__Blanco--info label {
     font-size: small;
     right: 25%;
@@ -919,7 +919,7 @@ img {
   padding: 1rem 3em;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedor__Blanco--info div a {
     padding: 1rem;
   }
@@ -972,7 +972,7 @@ img {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .discografia {
     padding: 0 .2rem;
     height: auto;
@@ -997,7 +997,7 @@ img {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedorDisco1 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1023,7 +1023,7 @@ img {
   grid-area: listaAlbums;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedorDisco1__albums {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1059,7 +1059,7 @@ img {
   margin: 1rem 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedorDisco1__tapaDisco {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1076,7 +1076,7 @@ img {
   margin: 10px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .contenedorDisco1__tapaDisco--img {
     margin: 0;
     padding-bottom: 2rem;
@@ -1235,7 +1235,7 @@ img {
   height: 350px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .tienda__Camperas img, .tienda__Buzos img, .tienda__Remeras img, .tienda__Accesorios img, .tienda__Multimedia img {
     width: 300px;
     height: 300px;
@@ -1312,7 +1312,7 @@ header h1 a {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   header h1 a {
     font-size: 1.7rem;
   }
@@ -1338,7 +1338,7 @@ nav {
   z-index: 500;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   nav {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
