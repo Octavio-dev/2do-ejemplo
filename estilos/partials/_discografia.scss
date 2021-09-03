@@ -6,6 +6,14 @@
     background-color: $colorNegro;
     height: 74vh;
 
+    @include laptop {
+        height: auto;
+    }
+
+    @include tablet {
+        height: auto;
+    }
+
     @include celular {
         padding: 0 .2rem;
         height: auto;

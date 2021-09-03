@@ -970,6 +970,18 @@ img {
   height: 74vh;
 }
 
+@media screen and (max-width: 1024px) {
+  .discografia {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .discografia {
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .discografia {
     padding: 0 .2rem;
