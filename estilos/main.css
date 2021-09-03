@@ -405,6 +405,12 @@
           filter: grayscale(2);
 }
 
+@media screen and (max-width: 1024px) {
+  .galeria__album {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .galeria__album {
     padding: 2rem;

@@ -23,6 +23,10 @@
         color: $colorNegro;
         filter:grayscale(2);
 
+        @include laptop {
+            margin: 0;
+        }
+
         @include tablet {
             padding: 2rem;
             filter: none;
