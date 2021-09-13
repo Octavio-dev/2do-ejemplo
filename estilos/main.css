@@ -1211,7 +1211,7 @@ img {
   width: 400px;
   -ms-flex-negative: 1;
       flex-shrink: 1;
-  z-index: 100;
+  z-index: 00;
   margin: 1rem 7rem;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
