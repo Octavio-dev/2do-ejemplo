@@ -1207,11 +1207,12 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   -ms-flex-negative: 1;
       flex-shrink: 1;
   z-index: 100;
+  margin: 1rem 7rem;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
 }
@@ -1231,15 +1232,8 @@ img {
 }
 
 .tienda__Camperas img, .tienda__Buzos img, .tienda__Remeras img, .tienda__Accesorios img, .tienda__Multimedia img {
-  width: 350px;
-  height: 350px;
-}
-
-@media screen and (max-width: 490px) {
-  .tienda__Camperas img, .tienda__Buzos img, .tienda__Remeras img, .tienda__Accesorios img, .tienda__Multimedia img {
-    width: 300px;
-    height: 300px;
-  }
+  width: 300px;
+  height: 300px;
 }
 
 .tienda__Camperas:hover, .tienda__Buzos:hover, .tienda__Remeras:hover, .tienda__Accesorios:hover, .tienda__Multimedia:hover {
